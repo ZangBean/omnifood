@@ -570,6 +570,7 @@
   width: 3.2rem;
   background-color: #fdf2e9;
   margin-bottom: 3.2rem;
+  padding: 1rem;
   border-radius: 50%;
 }
 .feature-title {
@@ -597,7 +598,6 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 12px;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-  overflow: hidden;
 }
 
 .cta-text-box {
@@ -625,6 +625,8 @@
     url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .cta-form {

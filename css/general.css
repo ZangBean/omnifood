@@ -89,7 +89,7 @@ body {
   font-weight: 500;
   color: #e67e22;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  margin: 1.6rem 0 3.2rem;
   letter-spacing: 0.75px;
 }
 
@@ -174,4 +174,70 @@ body {
 
 .strong {
   font-weight: 500;
+}
+
+/**********************/
+/* CUSTOM SELECT OPTION */
+/**********************/
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: #fdf2e9;
+  border-radius: 10px;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 48px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-color: #aaaab8 transparent transparent transparent;
+  transition: all 0.3s ease;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #aaaab8 transparent;
+  top: 38px;
+}
+
+.select-items div,
+.select-selected {
+  color: #333;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.select-items {
+  overflow: hidden;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #aaaab8;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: #fdf2e9;
 }
