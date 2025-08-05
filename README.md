@@ -1,4 +1,4 @@
-# Omnifood Project – Healthy Food Delivery Website
+# Omnifood
 
 Dự án **Omnifood** là một website landing page được xây dựng bằng **HTML5 + CSS3**, hướng đến việc luyện tập thiết kế web hiện đại, bố cục responsive và giao diện bắt mắt.
 
