@@ -8,7 +8,7 @@ Dự án **Omnifood** là một website landing page được xây dựng bằng
 - **Semantic Tags**: `<header>`, `<nav>`, `<section>`, `<main>`, `<article>`, `<footer>`.
 - **Thẻ văn bản và bố cục**: `<h1>` đến `<h6>`, `<p>`, `<ul>`, `<li>`, `<a>`, `<img>`, `<button>`.
 - **Biểu mẫu**:
-  - Sử dụng `<form>`, `<input>`, `<select>`, `<textarea>`, `<button>` để tạo form liên hệ.
+  - Sử dụng `<form>`, `<input>`, `<select>`, `<button>` để tạo form liên hệ.
   - Áp dụng `placeholder`, `required`, `type="email"`...
 
 ---
@@ -43,6 +43,9 @@ Dự án **Omnifood** là một website landing page được xây dựng bằng
 
 ### Animation với @keyframes
 Dự án đã sử dụng @keyframes để tạo các hiệu ứng chuyển động.
+
+### Áp dụng JS tạo menu responsive
+Dự án đã kết hợp **CSS + JS** để tạo menu và chức năng đóng mở menu.
 
 ---
 
