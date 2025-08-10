@@ -48,12 +48,3 @@ Dự án đã sử dụng @keyframes để tạo các hiệu ứng chuyển đ�
 Dự án đã kết hợp **CSS + JS** để tạo menu và chức năng đóng mở menu.
 
 ---
-
-## Cấu trúc thư mục
-
-```plaintext
-omnifood/
-├── index.html
-├── css/
-├── img/
-└── js/
